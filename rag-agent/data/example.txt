@@ -1,0 +1,11 @@
+Agentic RAG systems combine retrieval with language models.
+
+Retrieval-Augmented Generation improves an LLM response by supplying relevant
+information from an external knowledge base. A typical RAG pipeline contains
+document ingestion, chunking, embedding generation, vector storage, retrieval,
+and answer generation.
+
+An agentic RAG workflow can add a decision step before retrieval. The agent
+can determine whether the question requires information from the knowledge
+base. If retrieval is required, relevant chunks are fetched and supplied to
+the answer-generation step.
